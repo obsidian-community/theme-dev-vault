@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "efc0445b96737385",
+    "type": "split",
+    "children": [
+      {
+        "id": "598745921f9ee652",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Embeds.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d21af89eb453f54",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f8de207ec3220a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10fb223e37e4ffdc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b05bc0037737934c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e7cd9c34e9302e91",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dc8e195d9054c62a",
+    "type": "split",
+    "children": [
+      {
+        "id": "461535e37e032b81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8648755dffb1327e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Embeds.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e7c4d8b7539d79b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Embeds.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dcbf859ef28defe3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "27fb5ac225d5fc1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Embeds.md"
+              }
+            }
+          },
+          {
+            "id": "a0a40c9e9f0316e8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "598745921f9ee652",
+  "lastOpenFiles": [
+    "Embeds.md",
+    "Headings.md",
+    "Markdown Syntax.md",
+    "How To/Show the rename file dialog.md",
+    "README.md",
+    "Plugins/Kanban 02.md",
+    "Plugins/Kanban 01.md",
+    "Page With Metadata.md"
+  ]
+}
