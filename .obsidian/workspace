@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Markdown Syntax.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Markdown Syntax.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Markdown Syntax.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Markdown Syntax.md"
+                "file": "README.md"
               }
             }
           },
@@ -137,11 +137,11 @@
   },
   "active": "598745921f9ee652",
   "lastOpenFiles": [
+    "README.md",
     "Markdown Syntax.md",
     "Embeds.md",
     "Headings.md",
     "How To/Show the rename file dialog.md",
-    "README.md",
     "Plugins/Kanban 02.md",
     "Plugins/Kanban 01.md",
     "Page With Metadata.md"
