@@ -1,0 +1,1 @@
+When Obsidian is in fullscreen mode (`Control + Command + F` on mac) the class `.is-fullscreen` is added to the `body` element.

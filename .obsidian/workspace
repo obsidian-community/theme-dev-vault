@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source"
+            "file": "How To/Use the developer tools.md",
+            "mode": "preview"
           }
         }
       }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "How To/Use the developer tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "How To/Use the developer tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "How To/Use the developer tools.md"
               }
             }
           },
@@ -137,6 +137,8 @@
   },
   "active": "598745921f9ee652",
   "lastOpenFiles": [
+    "How To/Use the developer tools.md",
+    "How To/Target fullscreen mode.md",
     "README.md",
     "Markdown Syntax.md",
     "Embeds.md",
