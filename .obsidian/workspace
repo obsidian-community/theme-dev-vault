@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Default obsidian colors.md",
+            "file": "Theme Colors.md",
             "mode": "preview"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Default obsidian colors.md",
+                "file": "Theme Colors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Default obsidian colors.md",
+                "file": "Theme Colors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Default obsidian colors.md"
+                "file": "Theme Colors.md"
               }
             }
           },
@@ -137,7 +137,7 @@
   },
   "active": "598745921f9ee652",
   "lastOpenFiles": [
-    "Default obsidian colors.md",
+    "Theme Colors.md",
     "How To/Use the developer tools.md",
     "How To/Target fullscreen mode.md",
     "README.md",
