@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "598745921f9ee652",
+        "id": "dcc0c61a7c95b93a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Theme Colors.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "heading",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Theme Colors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Theme Colors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,16 +110,6 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Theme Colors.md"
-              }
-            }
-          },
-          {
-            "id": "a0a40c9e9f0316e8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
               "state": {}
             }
           }
@@ -133,19 +118,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 137
+    "width": 175
   },
-  "active": "598745921f9ee652",
+  "active": "dcc0c61a7c95b93a",
   "lastOpenFiles": [
-    "Theme Colors.md",
-    "How To/Use the developer tools.md",
-    "How To/Target fullscreen mode.md",
-    "README.md",
+    "Plugins/Core - Search.md",
+    "Page With Metadata.md",
     "Markdown Syntax.md",
-    "Embeds.md",
     "Headings.md",
-    "How To/Show the rename file dialog.md",
-    "Plugins/Kanban 02.md",
-    "Plugins/Kanban 01.md"
+    "Embeds.md",
+    "README.md",
+    "Theme Colors.md",
+    "Plugins/Kanban 01.md",
+    "How To/Use the developer tools.md",
+    "How To/Target fullscreen mode.md"
   ]
 }
