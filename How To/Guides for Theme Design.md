@@ -1,0 +1,1 @@
+Check out the [Guides for Theme Designers at the Obsidian Hub](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers).
