@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "efc0445b96737385",
+    "id": "f29caaa31a257a8c",
     "type": "split",
     "children": [
       {
-        "id": "dcc0c61a7c95b93a",
+        "id": "2ed38844c1a1e30c",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "How To/Guides for Theme Design.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -73,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "How To/Guides for Theme Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "How To/Guides for Theme Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +115,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "How To/Guides for Theme Design.md"
+              }
             }
           }
         ],
@@ -120,17 +127,17 @@
     "direction": "horizontal",
     "width": 175
   },
-  "active": "dcc0c61a7c95b93a",
+  "active": "2ed38844c1a1e30c",
   "lastOpenFiles": [
-    "Plugins/Core - Search.md",
-    "Page With Metadata.md",
-    "Markdown Syntax.md",
-    "Headings.md",
-    "Embeds.md",
-    "README.md",
-    "Theme Colors.md",
-    "Plugins/Kanban 01.md",
+    "How To/Guides for Theme Design.md",
     "How To/Use the developer tools.md",
-    "How To/Target fullscreen mode.md"
+    "Mobile.md",
+    "Tooltips and Notices.md",
+    "Page With Metadata.md",
+    "How To/Show the rename file dialog.md",
+    "Theme Colors.md",
+    "Footnotes.md",
+    "Plugins/Core - Search.md",
+    "Markdown Syntax.md"
   ]
 }
