@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How To/Guides for Theme Design.md",
-            "mode": "source"
+            "file": "README.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -47,14 +48,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "e7cd9c34e9302e91",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
@@ -76,25 +69,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How To/Guides for Theme Design.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "8e7c4d8b7539d79b",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "How To/Guides for Theme Design.md",
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -116,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How To/Guides for Theme Design.md"
+                "file": "README.md"
               }
             }
           }
@@ -129,15 +110,15 @@
   },
   "active": "2ed38844c1a1e30c",
   "lastOpenFiles": [
+    "README.md",
+    "Plugins/Kanban 01.md",
+    "Plugins/Core - Search.md",
+    "How To/Show the rename file dialog.md",
+    "How To/Target fullscreen mode.md",
     "How To/Guides for Theme Design.md",
     "How To/Use the developer tools.md",
     "Mobile.md",
     "Tooltips and Notices.md",
-    "Page With Metadata.md",
-    "How To/Show the rename file dialog.md",
-    "Theme Colors.md",
-    "Footnotes.md",
-    "Plugins/Core - Search.md",
-    "Markdown Syntax.md"
+    "Page With Metadata.md"
   ]
 }

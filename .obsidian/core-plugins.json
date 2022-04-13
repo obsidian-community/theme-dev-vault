@@ -4,19 +4,9 @@
   "switcher",
   "graph",
   "backlink",
-  "outgoing-link",
   "tag-pane",
-  "page-preview",
   "daily-notes",
-  "templates",
-  "note-composer",
   "command-palette",
-  "starred",
-  "markdown-importer",
-  "outline",
-  "word-count",
-  "slides",
-  "audio-recorder",
-  "open-with-default-app",
-  "file-recovery"
+  "editor-status",
+  "outline"
 ]

@@ -55,13 +55,14 @@ var import_obsidian = __toModule(require("obsidian"));
 var themeDesignUtilities = class extends import_obsidian.Plugin {
   onload() {
     return __async(this, null, function* () {
-      const freezeDelaySecs = 4;
       console.log("Theme Design Utilities Plugin loaded.");
+      const freezeDelaySecs = 4;
+      const versionInfoNoticeDuration = 7;
       this.addCommand({
         id: "freeze-obsidian",
-        name: "Freeze Obsidian (triggered with " + freezeDelaySecs.toString() + "s delay)",
+        name: "Freeze Obsidian (with " + freezeDelaySecs.toString() + "s delay)",
         callback: () => {
-          new import_obsidian.Notice("Will freeze Obsidian in " + freezeDelaySecs.toString() + "s (if the console is open.)", 3e3);
+          new import_obsidian.Notice("Will freeze Obsidian in " + freezeDelaySecs.toString() + "s (if the console is open.)", (freezeDelaySecs - 1) * 1e3);
           setTimeout(() => {
             debugger;
           }, freezeDelaySecs * 1e3);
@@ -79,18 +80,29 @@ var themeDesignUtilities = class extends import_obsidian.Plugin {
       });
       this.addCommand({
         id: "cheatsheet-css-classes",
-        name: "Cheatsheet: Obsidian CSS Classes",
+        name: "Cheatsheet \u2013 Obsidian CSS Classes",
         callback: () => window.open("https://raw.githubusercontent.com/chrisgrieser/obsidian-theme-design-utilities/master/cheatsheets/css-classes.png")
       });
       this.addCommand({
         id: "toggle-dark-light-mode",
-        name: "Toggle Dark/Light Mode",
+        name: "Toggle between Dark and Light Mode",
+        callback: () => this.toggleTheme()
+      });
+      this.addCommand({
+        id: "cycle-views",
+        name: "Cycle between Source Mode, Live Preview, and Reading Mode",
+        callback: () => this.cycleViews()
+      });
+      this.addCommand({
+        id: "version-info",
+        name: "CSS Feature Compatibility / Tech Stack Versions",
         callback: () => {
-          const isDarkMode = this.app.vault.getConfig("theme") === "obsidian";
-          if (isDarkMode)
-            this.useLightMode();
-          else
-            this.useDarkMode();
+          const chromeVersion = process.versions.chrome.split(".")[0];
+          const nodeVersion = process.versions.node.split(".")[0];
+          const electronVersion = process.versions.electron.split(".")[0];
+          new import_obsidian.Notice(`Chrome Version: ${chromeVersion}
+Node Version: ${nodeVersion}
+Electron Version: ${electronVersion}`, versionInfoNoticeDuration * 1e3);
         }
       });
     });
@@ -100,14 +112,50 @@ var themeDesignUtilities = class extends import_obsidian.Plugin {
       console.log("Theme Design Utilities Plugin unloaded.");
     });
   }
-  useDarkMode() {
-    this.app.setTheme("obsidian");
-    this.app.vault.setConfig("theme", "obsidian");
-    this.app.workspace.trigger("css-change");
+  toggleTheme() {
+    const isDarkMode = this.app.vault.getConfig("theme") === "obsidian";
+    if (isDarkMode) {
+      this.app.setTheme("moonstone");
+      this.app.vault.setConfig("theme", "moonstone");
+      this.app.workspace.trigger("css-change");
+    } else {
+      this.app.setTheme("obsidian");
+      this.app.vault.setConfig("theme", "obsidian");
+      this.app.workspace.trigger("css-change");
+    }
   }
-  useLightMode() {
-    this.app.setTheme("moonstone");
-    this.app.vault.setConfig("theme", "moonstone");
-    this.app.workspace.trigger("css-change");
+  cycleViews() {
+    const noticeDuration = 2e3;
+    const activePane = this.app.workspace.activeLeaf;
+    const currentView = activePane.getViewState();
+    if (currentView.type === "empty") {
+      new import_obsidian.Notice("There is currently no file open.");
+      return;
+    }
+    let currentMode;
+    if (currentView.state.mode === "preview")
+      currentMode = "preview";
+    if (currentView.state.mode === "source" && currentView.state.source)
+      currentMode = "source";
+    if (currentView.state.mode === "source" && !currentView.state.source)
+      currentMode = "live";
+    const newMode = currentView;
+    switch (currentMode) {
+      case "preview":
+        newMode.state.mode = "source";
+        newMode.state.source = true;
+        new import_obsidian.Notice("Now: Source Mode", noticeDuration);
+        break;
+      case "source":
+        newMode.state.mode = "source";
+        newMode.state.source = false;
+        new import_obsidian.Notice("Now: Live Preview", noticeDuration);
+        break;
+      case "live":
+        newMode.state.mode = "preview";
+        new import_obsidian.Notice("Now: Reading Mode", noticeDuration);
+        break;
+    }
+    activePane.setViewState(newMode);
   }
 };
