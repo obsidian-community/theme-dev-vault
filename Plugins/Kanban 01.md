@@ -17,7 +17,7 @@ hide-tags-in-title: true
 
 ## Backlog
 
-- [ ] [[Page With Metadata]]
+- [ ] [[Properties]]
 
 
 ## Todo

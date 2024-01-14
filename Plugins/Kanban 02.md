@@ -21,7 +21,7 @@ hide-date-display: true
 
 ## Backlog
 
-- [ ] [[Page With Metadata]]
+- [ ] [[Properties]]
 
 
 ## Todo
