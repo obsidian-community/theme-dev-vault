@@ -1,4 +1,3 @@
-# List Variations
 
 ## Unordered lists
 
@@ -57,28 +56,37 @@ Mixed numbered lists
 2. aliquip ex ea commodo consequat.
 
 ## Task lists
-There are lots of variations for these. We will try to list some common ones here. 
+### Standard Checkboxes
+Supported by all themes
 
-- **The basics**
-	- [ ] incomplete
-	- [x] `x` complete / done
-	- [X] `X` complete / done (Failed in Sanctum)
-- **Completion / GTD / bullet journal flavors**
-	- [-] `-` cancelled 
-	- [>] `>` deferred
-	- [/] `/` for in progress, or half-done
-	- [!] `!` for Important
-	- [?] `?` for question
+- [ ] incomplete
+- [x] x complete
 
-### Examples
+- [ ] nested level 1
+	- [ ] nested level 2
+		- [ ] nested level 3
 
-Not all themes support all of these variations. Here are a few examples. These are also snapshots, see the themes for the latest. ;)
+### Alternate Checkboxes
+Many themes can render additional variations on task list checkboxes. The meanings of symbols differ between themes, but we've tried to list some that have reasonable consensus.
+#### Incomplete states
+- [ ] incomplete
+- [/] / partially done
+- [<] < scheduling
+#### Complete states
+- [x] x complete/done
+- [x] X complete/done (treated as failed by Sanctum theme) 
+- [-] - canceled
+- [>] > deferred/forwarded
+#### Other states
+- [!] `!` Important
+- [?] `?` question
 
-#### Ebullientworks
+#### Screenshots from themes
+
+##### Ebullientworks
 
 ![[ebullientworks-common-tasks.png|400]]
-
-##### Additional types
+###### Additional types
 
 ![[ebullientworks-custom-tasks.png|200]]
 
@@ -86,11 +94,11 @@ Not all themes support all of these variations. Here are a few examples. These a
 
 - [R] `R` for review
 
-#### ITS Theme
+##### ITS Theme
 
 ![[ITS-common-tasks.png|600]]
 
-##### Additional types
+###### Additional types
 
 ![[ITS-custom-tasks.png]]
 
@@ -111,11 +119,11 @@ Not all themes support all of these variations. Here are a few examples. These a
 	- [C] `C` for con
 
 
-#### Sanctum
+##### Sanctum
 
 ![[sanctum-common-tasks.png|500]]
 
-##### Additional types
+###### Additional types
 
 Sanctum has some adjusted meanings (note differences to ITS)
 
@@ -147,6 +155,6 @@ Sanctum has some adjusted meanings (note differences to ITS)
 	- [❤] ❤ for a heart item
 
 
-#### Spectrum
+##### Spectrum
 
 ![[spectrum-common-tasks.png|500]]
