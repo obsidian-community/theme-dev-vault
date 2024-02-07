@@ -7,6 +7,7 @@ This vault is currently incomplete. Please help update it by submitting pull req
 - - -
 ## Content
 Examples and notes on styling Markdown content provided by users.
+- [[Callouts]]
 - [[Embeds]]
 - [[Footnotes]]
 - [[Headings]]
@@ -15,7 +16,6 @@ Examples and notes on styling Markdown content provided by users.
 - [[Optional elements]]
 - [[Properties]]
 - [[Tables]]
-
 ## Obsidian UI
 Notes on styling parts of the Obsidian app
 - [[Mobile]]
