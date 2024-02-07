@@ -8,6 +8,7 @@ This vault is currently incomplete. Please help update it by submitting pull req
 ## Content
 Examples and notes on styling Markdown content provided by users.
 - [[Callouts]]
+- [[Diagrams]]
 - [[Embeds]]
 - [[Footnotes]]
 - [[Headings]]
