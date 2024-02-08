@@ -14,6 +14,7 @@ Examples and notes on styling Markdown content provided by users.
 - [[Headings]]
 - [[Lists]]
 - [[Markdown]]
+- [[Math]]
 - [[Optional elements]]
 - [[Properties]]
 - [[Tables]]
